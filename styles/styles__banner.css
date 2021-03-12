@@ -50,4 +50,5 @@
 
 .banner__download:hover { 
     background-color:#D98943;
+    border: 1px solid transparent;
 }
