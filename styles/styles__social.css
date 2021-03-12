@@ -1,0 +1,38 @@
+.social {
+    background-color: #F8EFEF;
+    margin-bottom: 100px;
+}
+.social__container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social__content {
+    margin-bottom: 17px;
+}
+.social__title {
+    margin: 14px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.social__text {
+    max-width: 365px;
+    color:#86878B;
+}
+
+.social__list {
+    display: flex;
+    justify-content: space-between;
+    width: 684px;    
+    }
+
+.social i {
+    font-size: 42px;
+    color: #86878bbd;
+    transition: all 0.5s;
+}
+
+.social i:hover {
+    color: #f09749;
+}

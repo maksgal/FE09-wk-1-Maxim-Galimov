@@ -1,0 +1,47 @@
+.header {
+    background-color: #000000;
+}
+.header__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 20px 0;
+    
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.ax-logo {
+    color: #FFFFFF;
+}
+
+.it-logo {
+    color: #EC7979
+}
+
+.menu {
+    min-width: 353px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__item-link {
+    color: rgba(255,255,255,0.7);
+}
+
+.menu__item {
+    transition: all 0.5s;
+    border-bottom: 2px solid transparent;
+}
+.menu__item:hover {
+    border-bottom: 2px solid rgba(255,255,255,0.7);
+}
+
+
