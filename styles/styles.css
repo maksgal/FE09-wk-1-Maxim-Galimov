@@ -21,10 +21,17 @@
         z-index: 1;
       }
 
-      .section__header {
-        text-align: center;
-        margin-bottom: 65px;
-      }
+    .logo {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+
+    .logo::after {
+  content: "IT";
+  color: #EC7979
+  }
+
 
     .title {
         font-family: 'Raleway', sans-serif;
