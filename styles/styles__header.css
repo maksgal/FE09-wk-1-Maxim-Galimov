@@ -2,7 +2,8 @@
     background-color: #000000;
 }
 .navigation{
-    padding: 20px 0 18px;
+    padding: 20px 0 20px;
+    margin-bottom: 108px;
     align-items: center;
     display: flex;
     justify-content: space-between;
