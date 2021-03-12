@@ -3,7 +3,6 @@
 }
 .navigation{
     padding: 20px 0 20px;
-    margin-bottom: 108px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -29,9 +28,5 @@
 }
 .menu__item:hover {
     border-bottom: 2px solid rgba(255,255,255,0.7);
-}
-
-.banner__logo {
-    font-size: 60px;
 }
 

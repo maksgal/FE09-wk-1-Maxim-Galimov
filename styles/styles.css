@@ -28,6 +28,7 @@
 
 
 .logo {
+  display: block;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -39,6 +40,17 @@
   color: #EC7979
 }
 
+.download {
+  display: block;
+  font-weight: 600px;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 135px; 
+    text-align: center;
+    padding: 11px 26px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
     .title {
         font-family: 'Raleway', sans-serif;

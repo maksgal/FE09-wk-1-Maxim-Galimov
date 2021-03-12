@@ -4,7 +4,6 @@
     background: url(/images/axure__background.jpg) no-repeat center center /cover;
     width: 100%;
     text-align: center;
-
 }
 
 .axure__header {
@@ -43,16 +42,12 @@
     font-weight: 300;
 }
 
-.download-link {
-    color: #FFFFFF;
-    font-weight: 600px;
-    font-size: 15px;
-    padding: 11px 26px;
+.axure__download {
+    margin: 0 auto;
     border: 1px solid #FFFFFF;
-    transition: 0.5s;
 }
 
-.download-link:hover{
+.axure__download:hover{
     background-color:#D98943;
 
 }
