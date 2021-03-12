@@ -1,0 +1,29 @@
+.footer {
+    padding: 30px 0 15px;
+    background-color: #000000;
+}
+
+.footer__container {
+    text-align: center;
+}
+
+.footer__list {
+    margin: 0 auto 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 317px;    
+    }
+
+.footer i {
+    font-size: 23px;
+    color: #bbbbbb;
+    transition: all 0.5s;
+}
+
+.footer i:hover {
+    color: #f09749;
+}
+
+.copyright {
+    color: rgba(255,255,255,0.5);
+}
