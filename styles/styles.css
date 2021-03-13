@@ -27,7 +27,7 @@
       }
 
 
-    .logo {
+.logo {
   display: block;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
@@ -35,10 +35,16 @@
   color: #FFFFFF;
 }
 
-  .logo::after {
+.logo::after {
   content: "IT";
   color: #EC7979
 } 
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 19px;
+}
 
 .download {
   display: block;
