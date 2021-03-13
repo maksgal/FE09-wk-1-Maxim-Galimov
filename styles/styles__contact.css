@@ -1,7 +1,30 @@
 .contact__container {
-    padding: 80px 0 45px;
+    padding: 80px 15px 45px;
 }
 
 .contact__header {
     text-align: center;
+    margin-bottom: 95px;
+}
+
+
+.contact__forms {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.register-form {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 478px;    
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 478px;
+
 }

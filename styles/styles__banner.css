@@ -122,3 +122,7 @@
     background-color: #fdabab;
     transform: scale(1.2);
 }
+
+.get__started:focus {
+    outline: 0;
+}
