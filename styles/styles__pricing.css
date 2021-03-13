@@ -54,6 +54,10 @@
     color: #ffffff
 }
 
+.card-descript__link:active {
+    background-color: #f1b885;
+ }
+
 .card-list-item {
     line-height: 40px;
     background-color: #ffffff;
