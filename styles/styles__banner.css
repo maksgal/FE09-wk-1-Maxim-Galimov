@@ -102,6 +102,7 @@
 }
 
 .get__started{
+    border: none;
     padding: 19px 0;
     color: #FFFFFF;
     text-align: center;
