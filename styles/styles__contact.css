@@ -1,5 +1,6 @@
 .contact__container {
     padding: 80px 15px 45px;
+    
 }
 
 .contact__header {
@@ -11,20 +12,39 @@
 .contact__forms {
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 75px;
+    margin: 0 --5px;
 }
 
-.register-form {    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 478px;    
-}
-
-.message-form {
+.contact__form {    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 478px;
+    margin: 0 5px;
+}
 
+.send-message{
+    display: block;
+    margin: 0 auto;
+    padding: 11px 32px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.send-message:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000000;
+}
+
+.send-message:active {
+    background-color: #fdabab;
+    transform: scale(1.2);
+}
+
+.send-message:focus {
+    outline: 0;
 }
