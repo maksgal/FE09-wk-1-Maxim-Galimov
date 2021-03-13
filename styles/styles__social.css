@@ -35,4 +35,5 @@
 
 .social i:hover {
     color: #ffaf68;
+    transform: scale(1.3);
 }

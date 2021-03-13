@@ -21,7 +21,8 @@
 }
 
 .footer i:hover {
-    color: #f09749;
+    color: #fcaf6b;
+    transform: scale(1.5);
 }
 
 .copyright {
