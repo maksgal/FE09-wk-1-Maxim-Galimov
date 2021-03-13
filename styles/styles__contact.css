@@ -37,13 +37,13 @@
 }
 
 .send-message:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
     box-shadow: 0 0 10px #000000;
 }
 
 .send-message:active {
     background-color: #fdabab;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .send-message:focus {

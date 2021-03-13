@@ -27,11 +27,11 @@
     .tab-switch:hover {
     background-color: #EC7979;
     box-shadow: 0 0 10px #000000;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
     .tab-switch:active {
     background-color: #fdabab;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .tabs__tab {
@@ -61,12 +61,12 @@
 .tabs__download:hover {
     background-color: #EC7979;
     box-shadow: 0 0 10px #000000;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .tabs__download:active {
     background-color: #fdabab;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .tabs__image {

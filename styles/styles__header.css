@@ -27,6 +27,6 @@
     border-bottom: 2px solid transparent;
 }
 .menu__item:hover {
-    border-bottom: 2px solid rgba(255,255,255,0.7);
+      border-bottom: 2px solid rgba(255,255,255,0.7);
 }
 
