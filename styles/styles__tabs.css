@@ -35,6 +35,7 @@
 }
 
 .tabs__tab {
+    max-width: 570px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,7 +49,6 @@
 }
 
 .tab__text {
-    max-width: 570px;
     text-transform: uppercase;
     color: #86878B;
 }
@@ -69,7 +69,10 @@
     transform: scale(1.05);
 }
 
-.tabs__image {
+.tabs__image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 320px;
     max-height: 253px;
 }

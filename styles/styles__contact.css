@@ -17,11 +17,14 @@
 }
 
 .contact__form {    
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    width: 478px;
+    width: 40%;
     margin: 0 5px;
+}
+
+.message__label {
+    margin-bottom: 25px;
+    
 }
 
 .send-message{
@@ -34,6 +37,14 @@
     font-size: 15px;
     font-weight: 600;
     transition: all 0.5s;
+
+}
+.contact__input {
+    margin-bottom: 32px;
+}
+
+.contact__label {
+    margin-bottom: 25px;
 }
 
 .send-message:hover {

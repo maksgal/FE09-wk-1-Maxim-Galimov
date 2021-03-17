@@ -44,18 +44,6 @@
     align-items: center;
 }
 
-
-
-.portrait-first {
-    background: url(/images/vitti.png) no-repeat center center /cover;
-}
-.portrait-second {
-    background: url(/images/mastroianni.png) no-repeat center center /cover;
-}
-.portrait-third {
-    background: url(/images/loren.png) no-repeat center center /cover;
-}
-
 .customers__ident {
     text-align: right;
 }
@@ -71,3 +59,12 @@
     display: block;
     color: #86878B;
 }
+
+.portrait {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }

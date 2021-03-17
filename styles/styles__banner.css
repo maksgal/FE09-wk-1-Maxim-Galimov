@@ -18,7 +18,7 @@
 }
 
 .banner__logo {
-    width:fit-content;    
+    display: inline-block;       
     font-size: 60px;
     line-height: 70px;
     margin-bottom: 32px;
@@ -69,7 +69,7 @@
     justify-content: space-between;   
     background-color: #FFFFFF;
     border-radius: 8px;
-    max-width: 370px;
+    max-width: 33%;
 }
 .form__inputs {
     padding: 29px 59px;
@@ -93,19 +93,15 @@
 
 .form-label {
     color:#BDBDBD;
+    margin-bottom: 10px;
 }
 .banner__input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
     margin-bottom: 19px;
 }
-
 .get__started{
     border: none;
     padding: 19px 0;
     color: #FFFFFF;
-    text-align: center;
     background-color: #EC7979;
     font-size: 15px;
     font-weight: 600;

@@ -40,21 +40,27 @@
                 <div class="container banner__container">
                     <div class="brand__description">
                         <a href="#" class="logo banner__logo">ax</a>
-                        <h2 class="title banner__title">modern axure template for beautiful prototypes</h2>
+                        <h1 class="title banner__title">modern axure template for beautiful prototypes</h1>
                 <p class="undertitle banner__undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenian</p>
                 <a href="#" class="download banner__download">Download</a>
             </div>
             
-            <form  action="" class="banner__form">
+            <form  action="#" class="banner__form">
                 <div class="form__inputs">
                 <h2 class="form-title">try your <span class="form-title__span">Free</span> trial today</h2>
-                
-                <label class="form-label" for="name">Name</label>
-               <input class="input" type="text">
-               <label class="form-label"  for="Email">Email</label>
-               <input class="input" type="text">
-               <label class="form-label" for="password">Password</label>
-               <input class="input" type="password">
+                <div class="banner__input">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="input" name="name" type="text">
+                </div>
+                <div class="banner__input">
+                    <label class="form-label"  for="Email">Email</label>
+                    <input class="input" name="Email" type="email">
+                </div>
+                <div class="banner__input">
+                    <label class="form-label" 
+                    for="password">Password</label>
+                    <input class="input" name="password" type="password">
+                </div>
             </div>
             <button class="get__started">Get Started</button>
             </form>
@@ -103,7 +109,9 @@
             </div>
                 <a class="download tabs__download">Download</a>
             </div>
+            <div class="tabs__image-block">
             <img class= "tabs__image" src="/images/tabs.png" alt="cityscape">
+        </div>
         </div>
     </section>
 
@@ -140,7 +148,6 @@
             </div>
         </div>
     </section>
-
     <section class="pricing">
         <div class="container">
             <div class="section__header">
@@ -225,7 +232,7 @@
                         <div class="customers__feedback"><p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum tempore perferendis, soluta rerum ducimus dolorem earum eaque, commodi nesciunt voluptate ad impedit!</p>
                         </div>
                         <div class="customers__review">
-                            <div class="portrait portrait-first"></div>
+                            <img class="portrait" src="/images/vitti.png" alt="portrait">
                             <div class="customers__ident"><span class="customers__name">Monica V.</span>
                                 <span class="customers__position">Actress</span></div>
                         </div>
@@ -238,8 +245,7 @@
                             quo suscipit.</p>
                         </div>
                         <div class="customers__review">
-                            <div class="portrait portrait-second"></div>
-                            <div class="customers__ident"><span class="customers__name">Marcello M.</span>
+                            <img class="portrait" src="/images/mastroianni.png" alt="portrait">                            <div class="customers__ident"><span class="customers__name">Marcello M.</span>
                                 <span class="customers__position">Actor</span></div>
                         </div>
                     </div>
@@ -249,8 +255,7 @@
                             accusamus expedita repellat similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum officiis fuga, molestiae consequuntur, blanditiis laboriosam laudantium, totam.</p>
                         </div>
                         <div class="customers__review">
-                            <div class="portrait portrait-third"></div>
-                            <div class="customers__ident"><span class="customers__name">Sophia L.</span>
+                            <img class="portrait" src="/images/loren.png" alt="portrait">                            <div class="customers__ident"><span class="customers__name">Sophia L.</span>
                                 <span class="customers__position">Actress</span></div>
                         </div>
                     </div>
@@ -274,18 +279,32 @@
                 <p class="undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="contact__forms">
-                <form action="" class="contact__form">
-                    <label class="form-label" for="name">Name</label>
-               <input class="input" type="text">
-               <label class="form-label"  for="Email">Email</label>
-               <input class="input" type="text">
-               <label class="form-label" for="password">Password</label>
-               <input class="input" type="password">
+                <form action="#" class="contact__form">
+                    <div class="contact__input">
+                    <label class="form-label contact__label" for="contact__name">Name</label>
+                    <input class="input" name="contact__name" type="text">
+                </div>
+                <div class="contact__input">
+
+                    <label class="form-label contact__label"  for="contact__Email">Email</label>
+                    
+                    <input class="input" name="contact__Email" type="email">
+                </div>
+
+                <div class="contact__input">
+
+                    <label class="form-label contact__label" for="contact__password">Password</label>
+                    <input class="input" name="contact__password" type="password">
+                </div>
                 </form>
-                <form action="" class="contact__form">
-                    <label class="form-label message-label" for="message">Message</label>
-               <input class="input" type="text">
+
+                <form action="#" class="contact__form">
+                    <div class="message__input">
+                    <label class="form-label message__label" for="message">Message</label>
+               <textarea class="input" name="message" type="textarea" rows = "12"></textarea>
+                </div>
                 </form>
+
             </div>
             <button class="send-message">Send Message</button>
         </div>

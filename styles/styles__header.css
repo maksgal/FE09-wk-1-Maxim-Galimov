@@ -13,9 +13,7 @@
 }
 
 .menu {
-    min-width: 353px;
     display: flex;
-    justify-content: space-between;
 }
 .menu__item-link {
     color: rgba(255,255,255,0.7);
@@ -23,8 +21,11 @@
 
 .menu__item {
     transition: all 0.5s;
-
+    margin-left: 48px;
     border-bottom: 2px solid transparent;
+}
+.menu__item:first-child {
+    margin-left: 0;
 }
 .menu__item:hover {
       border-bottom: 2px solid rgba(255,255,255,0.7);

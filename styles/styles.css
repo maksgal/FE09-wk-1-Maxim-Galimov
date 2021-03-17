@@ -8,10 +8,20 @@
     font-weight: 400;
     font-size: 14px;
     font-weight: 400;
-    line-height: 19px;
+  
     }
 
+    input:focus {
+      outline: none;
+    }
 
+    label {
+      display: block;
+    }
+
+    input {
+      display: block;
+    }
      
     .container {
       position: relative;
@@ -43,8 +53,9 @@
   width: 100%;
   border: none;
   border-bottom: 1px solid #BDBDBD;
-  margin-bottom: 19px;
 }
+
+
 
 .download {
   display: block;
@@ -85,8 +96,7 @@
         color: #86878B;
       }
 
-  .portrait {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-  }
+      textarea {
+        outline: none;
+        resize: none;
+      }
