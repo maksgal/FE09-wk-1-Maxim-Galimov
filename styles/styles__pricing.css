@@ -17,6 +17,12 @@
 .pricing__card {
     width: 340px;    
     margin: 0 15px;
+    transition: all 0.5s;
+  }
+
+.pricing__card:hover {
+    transform: translateY(-20px);
+    
 }
 
 .card-header {
@@ -50,13 +56,19 @@
 }
 
 .card-descript__link:hover {
-    background-color: #D98943;
-    color: #ffffff
+    transform: scale(1.2);
+    border-radius: 8px;
 }
 
 .card-descript__link:active {
+    transform: scale(1.1);
     background-color: #f1b885;
- }
+}
+
+.pricing__card:hover .card-descript__link{
+    background-color: #D98943;
+    color: #ffffff
+}
 
 .card-list-item {
     line-height: 40px;
