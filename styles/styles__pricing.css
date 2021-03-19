@@ -1,5 +1,5 @@
 .pricing {
-    padding: 80px 0 80px;
+    padding: 80px 0;
     background-color: #e5e5e5;
 }
 
@@ -15,13 +15,13 @@
     }
 
 .pricing__card {
-    width: 340px;    
+    min-width: 24.3rem;    
     margin: 0 15px;
     transition: all 0.5s;
   }
 
 .pricing__card:hover {
-    transform: translateY(-20px);
+    transform: translateY(-1.5rem);
     
 }
 
@@ -32,7 +32,7 @@
 }
 
 .card-name__text {
-    line-height: 50px;
+    line-height: 3.57rem;
     font-weight: 700;
 }
 
@@ -43,14 +43,14 @@
     border-bottom: 2px solid #E5E5E5;
 }
 .card-price__text {
-    line-height: 100px;
+    line-height: 7.14rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.5rem;
 }
 .card-descript__link {
     display: block;
-    line-height: 50px;
+    line-height: 3.57rem;
     color: rgba(255, 255, 255, 0.5);
     transition:  0.5s ;
 }
@@ -71,8 +71,8 @@
 }
 
 .card-list-item {
-    line-height: 40px;
+    line-height: 2.86rem;
     background-color: #ffffff;
-    margin: 4px 0 4px;
+    margin: 4px 0;
     color: #86878B;
 }

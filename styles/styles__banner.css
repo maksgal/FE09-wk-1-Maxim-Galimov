@@ -1,6 +1,7 @@
 .banner {
     position: relative;
     background:url(/images/banner.jpg) no-repeat center center /cover;
+    padding: 109px 0 100px;
 }
 .banner__container {
     display: flex;
@@ -19,7 +20,7 @@
 
 .banner__logo {
     display: inline-block;       
-    font-size: 60px;
+    font-size: 4.3rem;
     line-height: 70px;
     margin-bottom: 32px;
 }
@@ -27,7 +28,7 @@
 .banner__title {
     color: #FFFFFF;
     max-width: 544px;
-    font-size: 36px;
+    font-size: 2.6rem;
 }
 
 .banner__title::after {
@@ -45,9 +46,6 @@
     margin-bottom: 40px;
 }
 
-.banner {
-    padding: 109px 0 100px;
-}
 .banner__download {
     border: 1px solid #FFFFFF;
 }
@@ -77,14 +75,14 @@
 
 .form-title {
     
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 73px;
 }
 
 .form-title__span {
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #EC7979;
@@ -103,7 +101,7 @@
     padding: 19px 0;
     color: #FFFFFF;
     background-color: #EC7979;
-    font-size: 15px;
+    font-size: 1.1rem;
     font-weight: 600;
     border-radius: 0 0 8px 8px;
     transition: all 0.5s;

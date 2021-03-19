@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
     font-weight: 400;
-  
+    }
+
+    html {
+      font-size: 14px;
     }
 
     input:focus {
@@ -17,6 +19,7 @@
 
     label {
       display: block;
+      text-align: left;
     }
 
     input {
@@ -39,7 +42,7 @@
 
 .logo {
   display: block;
-  font-size: 30px;
+  font-size: 2.2rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -60,11 +63,10 @@
 .download {
   display: block;
   font-weight: 600px;
-    font-size: 15px;
     color: #FFFFFF;
     width: 135px; 
     text-align: center;
-    padding: 11px 26px;
+    padding: 0.8rem 1.85rem;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -72,7 +74,7 @@
     .title {
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
-        font-size: 38px;
+        font-size: 2.7rem;
         line-height: 42px;
         text-transform: uppercase;
         display: block;
@@ -100,3 +102,5 @@
         outline: none;
         resize: none;
       }
+
+   

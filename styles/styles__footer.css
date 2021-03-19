@@ -11,11 +11,11 @@
     margin: 0 auto 18px;
     display: flex;
     justify-content: space-between;
-    width: 317px;    
+    max-width: 317px;    
     }
 
 .footer i {
-    font-size: 23px;
+    font-size: 1.6rem;
     color: #bbbbbb;
     transition: all 0.5s;
 }

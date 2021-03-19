@@ -1,5 +1,6 @@
 .social {
     background-color: #F8EFEF;
+    padding: 14px 0 17px;
     margin-bottom: 100px;
 }
 .social__container {
@@ -7,12 +8,9 @@
     justify-content: space-between;
     align-items: center;
 }
-.social__content {
-    margin-bottom: 17px;
-}
+
 .social__title {
-    margin: 14px 0;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -24,11 +22,11 @@
 .social__list {
     display: flex;
     justify-content: space-between;
-    width: 684px;    
+    min-width: 60%;    
     }
 
 .social i {
-    font-size: 42px;
+    font-size: 3rem;
     color: #86878bbd;
     transition: all 0.5s;
 }
