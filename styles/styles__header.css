@@ -1,11 +1,35 @@
 .header {
     background-color: #000000;
-}
+    }
 .navigation{
     padding: 20px 0 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+}
+
+.burger-button {
+    display: none;
+    margin-right: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+.burger-button:active {
+
+    transform: rotate(360deg);
+}
+
+
+
+
+.button-line {
+    width: 30px;
+    height: 3px;
+    border-radius: 10%;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.button-line:last-child {
+    margin-bottom: 0;
 }
 
 .navigation__logo {
@@ -14,6 +38,8 @@
 
 .menu {
     display: flex;
+    transition: display 2000ms;
+
 }
 .menu__item-link {
     color: rgba(255,255,255,0.7);
