@@ -18,9 +18,12 @@
     transform: rotate(360deg);
 }
 
-
-
-
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;}@keyframes fade {
+    from{opacity: 0.1;
+    }to{opacity: 1;};    
+}
 .button-line {
     width: 30px;
     height: 3px;
