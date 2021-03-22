@@ -17,6 +17,23 @@
     transition: all 0.2s ease-in-out;
 }
 
+.burger-button:active {
+    
+    transform: rotate(45deg);
+}
+
+
+.button-line {
+    width: 30px;
+    height: 3px;
+    border-radius: 10%;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.button-line:last-child {
+    margin-bottom: 0;
+}
+
 .menu {
     display: flex;
     transition: display 2000ms;
