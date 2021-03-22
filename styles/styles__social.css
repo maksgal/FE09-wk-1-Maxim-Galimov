@@ -22,7 +22,7 @@
 .social__list {
     display: flex;
     justify-content: space-between;
-    min-width: 60%;    
+    min-width: 60%;
     }
 
 .social i {

@@ -194,3 +194,8 @@
     }
 }
 
+@media (max-width: 310px){
+    html {
+        font-size: 8px;
+    }
+}
