@@ -148,6 +148,29 @@
     .burger-button {
         display: block;
     }
+    
+    .burger-button:active {
+    
+        transform: rotate(45deg);
+    }
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;}@keyframes fade {
+        from{opacity: 0.1;
+        }to{opacity: 1;};    
+    }
+    
+    .button-line {
+        width: 30px;
+        height: 3px;
+        border-radius: 10%;
+        background-color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+    .button-line:last-child {
+        margin-bottom: 0;
+    }
 
     .hidden {
         display: none;

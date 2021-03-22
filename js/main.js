@@ -13,9 +13,11 @@ button.addEventListener("click", function() {
     ) {
         menu.classList.remove("open", "fade")
         menu.classList.add("hidden");
+       
     } else {
         
         menu.classList.remove("hidden") 
-        menu.classList.add("open");
+        menu.classList.add("open");     
     }
+    menu.classList.add("menu");
 });
