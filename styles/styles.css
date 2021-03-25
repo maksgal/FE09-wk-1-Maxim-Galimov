@@ -67,7 +67,7 @@
     color: #FFFFFF;
     width: 135px; 
     text-align: center;
-    padding: 0.8rem 1.85rem;
+    padding: 0.8em 1.85em;
     transition: all 0.5s;
     cursor: pointer;
 }

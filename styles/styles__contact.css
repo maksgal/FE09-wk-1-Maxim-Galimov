@@ -46,6 +46,9 @@
     margin-bottom: 25px;
 }
 
+.input-area {
+    height: 206px;
+}
 .send-message:hover {
     transform: scale(1.2);
     box-shadow: 0 0 10px #000000;

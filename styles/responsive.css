@@ -35,7 +35,7 @@
 
 @media(max-width: 1000px) {
     .banner {
-        padding: 2rem 0 2rem;        
+        padding: 2em 0 2em;        
     }
     .banner__container {
         text-align: center;
